@@ -8,6 +8,6 @@ metadata:
 managedNodeGroups:
   - name: expense
     #instanceTypes: ["m5.large", "c3.large","c4.large","c5.large"]
-    instanceTypes: ["m5.large", "c5.large", "t3.large", "t3.medium"]
+    instanceTypes: ["t2.micro", "t2.micro", "t2.micro", "t2.micro"]
     desiredCapacity: 3
     spot: true
